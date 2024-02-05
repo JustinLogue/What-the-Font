@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+body{
+
+    margin: 0px;
+    
+}
+.leftfade{
+    background-image: linear-gradient(to right, #2C3539, black);
+}
+h1{
+    color: #FF5F1F;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 40px;
+    padding-top: 50px;
+    animation: neonFlicker 1.5s infinite alternate;
+    margin-top: 0px;
+}
+.wrapper{
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    text-align: center;
+    /*background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;*/
+    background-image: linear-gradient(to right, #2C3539, black 10%, black 90%, #2C3539 );
+
+    height: auto;
+  
+    /*margin-top: 0px;
+    padding-top: 0px;*/
+    
+}
+.chorus{
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 30px;
+    color: #FF5F1F;
+    text-shadow:
+      0 0 4px black,
+      0 0 10px #FF5F1F,
+      0 0 21px #FF5F1F,
+      0 0 42px #FF7518,
+      0 0 82px #FF7518,
+      0 0 92px #FF7518,
+      0 0 102px #FFA500,
+      0 0 151px #FFA500;
+    padding-bottom: 50px;
+}
+.verse{
+    font-size: 30px;
+    font-family: 'Protest Revolution', sans-serif;
+    color: azure;
+
+}
+@keyframes neonFlicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 4px black,
+        0 0 10px #FF5F1F,
+        0 0 21px #FF5F1F,
+        0 0 42px #FF7518,
+        0 0 82px #FF7518,
+        0 0 92px #FF7518,
+        0 0 102px #FFA500,
+        0 0 151px #FFA500;
+    }
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }  
+
+    
+}
