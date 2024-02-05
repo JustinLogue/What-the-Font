@@ -16,6 +16,14 @@ h1{
     animation: neonFlicker 1.5s infinite alternate;
     margin-top: 0px;
 }
+h2{
+    color: #FF5F1F;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+    animation: neonFlicker 1.5s infinite alternate;
+    margin-top: 0px;
+}
 .wrapper{
     /*margin-left: 10%;
     margin-right: 10%;*/
